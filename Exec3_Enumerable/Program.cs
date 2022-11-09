@@ -20,14 +20,14 @@ namespace Exec3_Enumerable
             IEnumerable<int> ints = Enumerable.Range(1, 10);
             foreach (var item in ints)
             {
-                Console.Write(item + " ");
+                Console.Write(item + "\t");
             }
             Console.WriteLine();
 
             ints = Enumerable.Range(10, 6);
             foreach (var item in ints)
             {
-                Console.Write(item + " ");
+                Console.Write(item + "\t");
             }
             Console.WriteLine();
         }
